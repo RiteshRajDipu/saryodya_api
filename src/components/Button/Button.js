@@ -18,7 +18,7 @@ const button = props =>
       {props.loading ? 'Loading...' : props.children}
     </button>
   ) : (
-    <Link
+    <Link 
       className={[
         'button',
         `button--${props.design}`,
